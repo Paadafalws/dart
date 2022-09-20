@@ -25,8 +25,8 @@ void main() {
   numeros.insert(3, -9); //adicionar um numero em um local especificio
   print(numeros);
   //print(numeros[4]); //posso escolher igual no C#
-  print(numeros.contains(
-      4)); // um bool para ver se econtra algum numero especifico dentro da lista
+  print(numeros.contains(4)); // um bool para ver se econtra algum numero especifico dentro da lista
   print(numeros.indexOf(-9)); // um buscar de informaçao dentro da lista
   print(numeros.remove(10)); //removaer um valor
+  
 }
